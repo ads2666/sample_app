@@ -145,10 +145,15 @@ aside {
   margin-right: 10px;
 }
 
-.gavatar_edit {
+.gravatar_edit {
   margin-top: 15px;
 }
 
+.logo_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* forms */
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
@@ -188,4 +193,16 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users Index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
